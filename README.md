@@ -14,12 +14,13 @@ La motivación del projecto es aplicar de manera práctica los conocimiento adqu
 
 ## Instalación
 La instalacion del projecto es sencilla, solo es necesario conocer algunas comandos básicos de git y python para correr el programa. 
-
-`cd tu-folder`
-`git clone <link>`
-`cd monitor`
-`python monitor.py`
-
+```
+cd ubicacion-folder
+mkdir tu-folder
+git clone <link>
+cd monitor
+python monitor.py
+```
 ## API 
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
