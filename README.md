@@ -4,8 +4,19 @@
 El monitor de sistema tiene como objetivo brindarle al usuario algunos recursos basicos para poder analizar cómo su computadora esta utilizando los recursos para los procesos que lleva a cabo. Es un programa desarrollado en Python.
 
 ## Ejemplo de Código
+Usemos el monitor para conseguir los datos de memoria de la computadora. Lo primero que tenemos que hacer es correr el programa
+<img src="./img/1.png" alt="Step 1" style="width: 100px;">
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Una vez que hayamos iniciado el programa. Nos desplegará la lista de funciones:
+![Paso 2](https://github.com/juanpflores94/monitor/blob/master/img/2.png "Paso 2")
+
+Indicamos cual queremos usar:
+![Paso 3](https://github.com/juanpflores94/monitor/blob/master/img/3.png "Paso 3")
+
+Nos da los resultados.
+
+Despues podemos salir del programa usando el comando `exit`
+![Paso 4](https://github.com/juanpflores94/monitor/blob/master/img/4.png "Paso 4")
 
 ## Motivación
 
@@ -34,11 +45,6 @@ interrupts: Imprime las interrupciones a los cpu's.
 clear: Limpia la pantalla.
 exit: Salida del programa.
 ```
-
-## Pruebas
-
-Describe and show how to run the tests with code examples.
-
 ## Contribuidores
 - Diego Alberto Barriga <umoqnier[at]gmail.com>
 - Juan Pablo Flores <jp[at]temazcal.io>
