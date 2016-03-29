@@ -27,7 +27,7 @@ def uso_disco():
 	os.system("du -h")
 	mut_impr.release()
 
-#Definimos la funcion que imprime el uso de los preocesos
+#Definimos la funcion que imprime el uso de los procesos
 def procesos():
 	'''Impresión de Procesos'''
 	global mut_impr
@@ -178,7 +178,7 @@ def command(var):
 	else:
 		print "Invalid command..."
 	
-#Definimos una fucnion para que asigne hilos a las funciones.
+#Definimos una funcion para que asigne hilos a las funciones.
 def hilo():
 	'''Creación de Hilos'''
 	thr0 = threading.Thread(target = uso_disco)
