@@ -17,7 +17,7 @@ La instalacion del projecto es sencilla, solo es necesario conocer algunas coman
 ```
 cd ubicacion-folder
 mkdir tu-folder
-git clone <link>
+git clone <git@github.com:juanpflores94/monitor.git> o <https://github.com/juanpflores94/monitor.git>
 cd monitor
 python monitor.py
 ```
