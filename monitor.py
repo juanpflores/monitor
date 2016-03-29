@@ -5,8 +5,8 @@
 #PRIMER PRYECTO DE SISTEMAS OPRATIVOS: Manejador de Procesos
 #===========================================================
 
-# @author Diego Barriga <umoqnier@gmail.com>
-# @author Juan Pablo Flores <jp@temazcal.io>
+# @author Diego Barriga <umoqnier[at]gmail.com>
+# @author Juan Pablo Flores <jp[at]temazcal.io>
 # @date 27/03/2016
 
 
