@@ -22,18 +22,18 @@ python monitor.py
 ```
 ## API 
 El programa tiene una serie de comandos que se pueden ingresar al inicarlo para poder mostrar distinta informacion:
-
-`all: Enseña todos los datos del sistema.
+```
+all: Enseña todos los datos del sistema.
 memory: Enseña los datos de la memoria
 process: Ensela los procesos que se estan corriendo en el CPU
 disk: Enseña el uso del disco duro
-protree:
-logins:
-cpuinfo:
-interrupts:
-clear:
-exit:
-
+protree: Despliega lo procesos que estan corriendo en ese momento en formato de arbol.
+logins: Imprime los logins del sistema.
+cpuinfo: Imprime la informacion de cada cpu existente en el sistema. Funciona gracias al archivo /proc/cpuinfo
+interrupts: Imprime las interrupciones a los cpu's. Funciona gracias al archivo /proc/interrupts
+clear: Limpia la pantalla.
+exit: Salida del programa.
+```
 
 ## Pruebas
 
