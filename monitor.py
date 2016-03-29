@@ -2,7 +2,7 @@
 # coding=utf-8
 
 #===========================================================
-#PRIMER PRYECTO DE SISTEMAS OPRATIVOS: Manejador de Procesos
+#PRIMER PRYECTO DE SISTEMAS OPRATIVOS: Monitor de Sistema
 #===========================================================
 
 # @author Diego Barriga <umoqnier[at]gmail.com>
