@@ -29,8 +29,8 @@ process: Ensela los procesos que se estan corriendo en el CPU
 disk: Enseña el uso del disco duro
 protree: Despliega lo procesos que estan corriendo en ese momento en formato de arbol.
 logins: Imprime los logins del sistema.
-cpuinfo: Imprime la informacion de cada cpu existente en el sistema. Funciona gracias al archivo /proc/cpuinfo
-interrupts: Imprime las interrupciones a los cpu's. Funciona gracias al archivo /proc/interrupts
+cpuinfo: Imprime la informacion de cada cpu existente en el sistema.
+interrupts: Imprime las interrupciones a los cpu's.
 clear: Limpia la pantalla.
 exit: Salida del programa.
 ```
