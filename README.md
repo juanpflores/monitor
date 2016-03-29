@@ -1,8 +1,7 @@
 #Projecto de Sistemas Operativos - Gunnar Wolf
 
 ## Synopsis
-
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+El monitor de sistema tiene como objetivo brindarle al usuario algunos recursos basicos para poder analizar cómo su computadora esta utilizando los recursos para los procesos que lleva a cabo. Es un programa desarrollado en Python.
 
 ## Ejemplo de Código
 
@@ -16,14 +15,25 @@ La motivación del projecto es aplicar de manera práctica los conocimiento adqu
 La instalacion del projecto es sencilla, solo es necesario conocer algunas comandos básicos de git y python para correr el programa. 
 ```
 cd ubicacion-folder
-mkdir tu-folder
+mkdir <nombre del folder>
 git clone <git@github.com:juanpflores94/monitor.git> o <https://github.com/juanpflores94/monitor.git>
 cd monitor
 python monitor.py
 ```
 ## API 
+El programa tiene una serie de comandos que se pueden ingresar al inicarlo para poder mostrar distinta informacion:
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+`all: Enseña todos los datos del sistema.
+memory: Enseña los datos de la memoria
+process: Ensela los procesos que se estan corriendo en el CPU
+disk: Enseña el uso del disco duro
+protree:
+logins:
+cpuinfo:
+interrupts:
+clear:
+exit:
+
 
 ## Pruebas
 
