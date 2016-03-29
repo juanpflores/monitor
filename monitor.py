@@ -1,4 +1,5 @@
 #!/user/bin/python
+# coding=utf-8
 
 #===========================================================
 #PRIMER PRYECTO DE SISTEMAS OPRATIVOS: Manejador de Procesos
@@ -15,8 +16,8 @@ import os, threading, time
 mut_impr = threading.Semaphore(1)
 band = 0
 
-#Definimos la funcion que nos dará a información del uso 
-#de disco duro.
+# Definimos la funcion que nos dará a información del uso 
+# de disco duro.
 def uso_disco():
 	'''Impresión de uso de disco'''
 	global mut_impr
@@ -195,6 +196,7 @@ def hilo():
 	thr6 = threading.Thread(target = interrupciones)
 
 def shell():
+	'''Funciones en Shell'''
 	global var, band, mut_impr
 	os.system("clear")
 	while band == 0:

@@ -10,7 +10,7 @@ Show what the library does as concisely as possible, developers should be able t
 
 ## Motivación
 
-La motivación del projecto es aplicar de manera práctica los conocimiento adquiridos en los temas de manejo de hilos, concurrencia y 
+La motivación del projecto es aplicar de manera práctica los conocimiento adquiridos en los temas de manejo de hilos, concurrencia y procesos. 
 
 ## Instalación
 La instalacion del projecto es sencilla, solo es necesario conocer algunas comandos básicos de git y python para correr el programa. 
@@ -29,8 +29,8 @@ Depending on the size of the project, if it is small and simple enough the refer
 Describe and show how to run the tests with code examples.
 
 ## Contribuidores
-- Diego Alberto Barriga <umoqnier@gmail.com>
-- Juan Pablo Flores <jp@temazcal.io>
+- Diego Alberto Barriga <umoqnier[at]gmail.com>
+- Juan Pablo Flores <jp[at]temazcal.io>
 
 
 ## Licencia 
